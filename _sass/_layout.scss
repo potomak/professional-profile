@@ -2,8 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    background-color: $brand-color;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -19,7 +18,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $white;
     }
 }
 
@@ -165,10 +164,6 @@
     padding: $spacing-unit 0;
 }
 
-.page-heading {
-    font-size: 20px;
-}
-
 .post-list {
     margin-left: 0;
     list-style: none;
@@ -233,4 +228,37 @@
             font-size: 18px;
         }
     }
+}
+
+
+/* Press release */
+
+hr {
+  border: 2px solid $brand-color;
+  margin: 20px 0;
+}
+
+.block {
+  clear: both;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.intro {
+  float: left;
+  width: calc(100% - (#{$spacing-unit} / 2) - 200px - 20px);
+  margin-right: 20px;
+}
+
+.me img {
+  float: right;
+  width: 200px;
+}
+
+.video {
+  float: left;
+}
+
+.video.first {
+  margin-right: 20px;
 }
