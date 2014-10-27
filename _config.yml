@@ -1,10 +1,10 @@
 # Site settings
-title: Giovanni Cappellotto's press release
+title: Giovanni Cappellotto's professional profile
 email: potomak84@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Giovanni Cappellotto is a creative programmer, a UX designer, and a
   visionary entrepreneur.
-baseurl: "/press-release" # the subpath of your site, e.g. /blog/
+baseurl: "/professional-profile" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: johnnyaboh
 github_username:  potomak
