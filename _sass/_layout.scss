@@ -169,6 +169,10 @@
 
 /* Professional profile */
 
+iframe {
+  margin-bottom: 20px;
+}
+
 hr {
   border: 2px solid $brand-color;
   margin: 20px 0;
@@ -222,5 +226,22 @@ hr {
     &.first {
       margin-bottom: 20px;
     }
+  }
+}
+
+/* Gallery */
+
+.thumb {
+  width: 170px;
+  height: 170px;
+  margin-right: 20px;
+  float: left;
+
+  &.last {
+    margin-right: 0;
+  }
+
+  img {
+    width: 170px;
   }
 }
